@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+  <style>
+    a {
+      text-decoration: none;
+      color: black;
+    }
+
+
+    .active {
+      padding: 10px;
+      border-radius: 5px;
+      color: white;
+      background-color: blue;
+    }
+
+    .b-example-divider {
+      height: 3rem;
+    }
+
+    .bi {
+      width: 100px;
+      height: 100px;
+    }
+
+    .bt{
+      width: 50px;
+      height: 50px;
+      position: absolute;
+    }
+
+    .colwithico {
+      margin-top: 20px;
+    }
+
+    .colwithico a {
+      color: blue;
+    }
+
+    @media (max-width: 768px) {
+      .row h1{
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <!-- sıralama küçükten büyüğe olacak -->
+        <div class="col-12 col-sm-6 col-md-8 col-lg-12 col-xxl-7">
+          <h1>Simple Header</h1>
+        </div>
+
+        <!-- order: sıralama için -->
+        <div class="d-flex col-12 col-sm-6 col-md-4 col-lg-12 col-xxl-5 justify-content-end align-items-center">
+          <a class="me-3 active" href="">Home</a>
+          <a class="me-3" href="">Features</a>
+          <a class="me-3" href="">Pricing</a>
+          <a class="me-3" href="">About</a>
+        </div>
+      </div>
+      <div class="b-example-divider"></div>
+      <div>
+
+        <div class="col-12 col-sm-6 col-md-8 col-lg-12 col-xxl-7">
+          <h2>Columns with icons</h2>
+        </div>
+        <hr>
+
+        <div class="colwithico row" style="height: 407px;">
+          <div class="d-flex flex-column align-items-start col-4 h-100">
+              <img class="bi" src="resimler/dosya.jpg" alt="">
+            <h2>Featured title</h2>
+            <span>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+              and probably just
+              keep going until we run out of words.</span>
+            <a class="icon-link d-inline-flex align-items-center pt-4" href="#">Call to Action ></a>
+          </div>
+
+          <div class="d-flex flex-column align-items-start col-4 h-100">
+
+              <img class="bi" src="resimler/dosya.jpg" alt="">
+            <h2>Featured title</h2>
+            <span>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+              and
+              probably just
+              keep going until we run out of words.</span>
+            <a class="icon-link d-inline-flex align-items-center pt-4" href="#">Call to Action ></a>
+          </div>
+
+          <div class="d-flex flex-column align-items-start col-4 h-100">
+
+            <img class="bi" src="resimler/dosya.jpg" alt="">
+            <h2>Featured title</h2>
+            <span>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence
+              and
+              probably just
+              keep going until we run out of words.</span>
+            <a class="icon-link d-inline-flex align-items-center pt-4" href="#">Call to Action ></a>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

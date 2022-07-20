@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <title>Bootstrap demo3</title>
+
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+ <style>
+  .a,
+  .b,
+  .c {
+   border-radius: 20px;
+   width: 450px;
+   background-repeat: no-repeat;
+   background-position: center center;
+   background-size: cover;
+  }
+
+  .a {
+   background-image: url(resimler/unsplash-photo-1.jpg);
+  }
+
+  .b {
+   background-image: url(resimler/unsplash-photo-2.jpg);
+  }
+
+  .c {
+   background-image: url(resimler/unsplash-photo-3.jpg);
+  }
+
+  h1 {
+   align-items: center;
+   text-align: center;
+   width: 400px;
+   color: white
+  }
+
+  .container-fluid img {
+   border-radius: 20px;
+   height: 25px;
+  }
+
+  .white-color {
+   color: white
+  }
+
+  .textt {
+   padding-left: 5px;
+  }
+ </style>
+</head>
+
+<body>
+
+ <div class="container-fluid">
+  <h2>Hanging icons</h2>
+  <hr>
+  <div class="m-4 row" style="height: 288px;">
+
+   <div class="a d-flex flex-column col-4 h-100">
+
+    <h1 class="textt pt-5 mt-5  fw-bold">Short title, long jacket</h1>
+
+    <ul class="d-flex list-unstyled mt-auto">
+     <li class="me-auto">
+      <img src="resimler/dosya.jpg" alt="">
+     </li>
+     <li class="d-flex align-items-center me-3">
+      <span class=" bi-geo-fill white-color"> Earth </span>
+     </li>
+     <li class="d-flex align-items-center">
+      <span class="bi bi-calendar-week-fill white-color"> 3d</span>
+     </li>
+    </ul>
+   </div>
+
+   <div class="b d-flex flex-column col-4 h-100 mx-5">
+   
+    <h1 class="textt pt-5 mt-5 fw-bold">Much longer title that wraps to multiple lines</h1>
+   
+    <ul class="d-flex list-unstyled mt-auto">
+     <li class="me-auto">
+      <img src="resimler/dosya.jpg" alt="">
+     </li>
+     <li class="d-flex align-items-center me-3">
+      <span class=" bi-geo-fill white-color"> Earth </span>
+     </li>
+     <li class="d-flex align-items-center">
+      <span class="bi bi-calendar-week-fill white-color"> 3d</span>
+     </li>
+    </ul>
+   </div>
+
+   <div class="c d-flex flex-column col-4 h-100">
+
+    <h1 class="textt pt-5 mt-5  fw-bold">Another longer title belongs here</h1>
+
+    <ul class="d-flex list-unstyled mt-auto">
+     <li class="me-auto">
+      <img src="resimler/dosya.jpg" alt="">
+     </li>
+     <li class="d-flex align-items-center me-3">
+      <span class=" bi-geo-fill white-color"> Earth </span>
+     </li>
+     <li class="d-flex align-items-center">
+      <span class="bi bi-calendar-week-fill white-color"> 3d</span>
+     </li>
+    </ul>
+   </div>
+  </div>
+ </div>
+
+</body>
+
+</html>
